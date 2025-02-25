@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServlet;
 import java.io.IOException;
 
 public class LifeCycleTestServlet extends HttpServlet {
-    /* 설명. 기본생성자*/
+    /* 설명. 기본 생성자*/
     public LifeCycleTestServlet() {
         System.out.println("xml 방식 서블릿 기본 생성자 실행!");
     }
