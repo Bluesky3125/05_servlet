@@ -1,4 +1,4 @@
-package com.ohgiraffers.redirect.section01;
+package com.ohgiraffers.redirect.section01.othercite;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
