@@ -27,8 +27,5 @@ public class SessionListenerServlet extends HttpServlet {
 
         session.setAttribute("user", new UserDTO("홍길동", 10));
         session.removeAttribute("user");
-
-
-
     }
 }

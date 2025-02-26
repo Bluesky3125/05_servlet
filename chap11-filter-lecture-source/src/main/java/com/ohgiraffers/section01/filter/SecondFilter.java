@@ -16,8 +16,8 @@ import java.io.IOException;
  *  (필터의 동작 순서는 web.xml에 작성한 filter mapping의 순서에 따라 동작한다.)
  * */
 //@WebFilter("/*")  // 모든 요청에 대해 처리되는 필터를 만들고 싶을 때
-//@WebFilter(filterName = "secondFilter", urlPatterns = "/first/*")   // 기본값 urlPatterns 외에 추가 사항을 넣으려면 키를 명시해 주어야 함.
-@WebFilter(filterName = "secondFilter") // web.xml에서 urlPatterns 설정
+@WebFilter(filterName = "secondFilter", urlPatterns = "/first/*")   // 기본값 urlPatterns 외에 추가 사항을 넣으려면 키를 명시해 주어야 함.
+//@WebFilter(filterName = "secondFilter") // web.xml에서 urlPatterns 설정
 public class SecondFilter implements Filter {
     public SecondFilter() {
         System.out.println("SecondFilter 인스턴스 생성!");
